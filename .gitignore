@@ -1,0 +1,23 @@
+node_modules
+
+#Hardhat files
+cache
+artifacts
+bin
+
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+*.code-workspace
+.secret
+.env
+seeds.json
+notes.txt
+TODO.txt
+*.temp-file
+.temp
